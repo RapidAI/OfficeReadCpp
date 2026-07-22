@@ -38,6 +38,8 @@ target_link_libraries(officeread_cli PRIVATE officeread)
 enable_testing()
 add_executable(officeread_tests tests/tests.cpp)
 target_link_libraries(officeread_tests PRIVATE officeread)
+target_compile_definitions(officeread_tests PRIVATE
+  OFFICEREAD_TESTDATA_DIR="${CMAKE_CURRENT_SOURCE_DIR}/testdata")
 add_test(NAME officeread_tests COMMAND officeread_tests)
 
 install(TARGETS officeread officeread_cli

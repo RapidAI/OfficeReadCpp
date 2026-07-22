@@ -1,0 +1,52 @@
+{
+  "inputs": [
+    ".\\testdata\\web-samples\\samples\\ppt\\004607.ppt"
+  ],
+  "summary": {
+    "total": 1,
+    "compared": 1,
+    "errors": 0,
+    "officeTokens": 154,
+    "extractedTokens": 154,
+    "matchedTokens": 154,
+    "recall": 1,
+    "precision": 1,
+    "f1": 1,
+    "officeImages": 0,
+    "extractedImages": 0
+  },
+  "byExt": {
+    ".ppt": {
+      "total": 1,
+      "compared": 1,
+      "errors": 0,
+      "officeTokens": 154,
+      "extractedTokens": 154,
+      "matchedTokens": 154,
+      "recall": 1,
+      "precision": 1,
+      "f1": 1,
+      "officeImages": 0,
+      "extractedImages": 0
+    }
+  },
+  "files": [
+    {
+      "path": ".\\testdata\\web-samples\\samples\\ppt\\004607.ppt",
+      "ext": ".ppt",
+      "officeSource": "PowerPoint.visible-slides",
+      "officeTextBytes": 929,
+      "extractedTextBytes": 925,
+      "officeImages": 0,
+      "extractedImages": 0,
+      "matchedTokens": 154,
+      "officeTokens": 154,
+      "extractedTokens": 154,
+      "recall": 1,
+      "precision": 1,
+      "f1": 1,
+      "imageDelta": 0,
+      "imageMatch": true
+    }
+  ]
+}

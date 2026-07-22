@@ -1,0 +1,7 @@
+ext,status,name,size_or_detail,source
+.docx,ok,014/014760.docx,39631,https://digitalcorpora.s3.amazonaws.com/corpora/files/govdocs1/by_type/docx.zip
+.docx,ok,017/017091.docx,37440,https://digitalcorpora.s3.amazonaws.com/corpora/files/govdocs1/by_type/docx.zip
+.xlsx,ok,019/019916.xlsx,55941,https://digitalcorpora.s3.amazonaws.com/corpora/files/govdocs1/by_type/xlsx.zip
+.xlsx,ok,142/142143.xlsx,1868700,https://digitalcorpora.s3.amazonaws.com/corpora/files/govdocs1/by_type/xlsx.zip
+.pptx,ok,018/018372.pptx,4509649,https://digitalcorpora.s3.amazonaws.com/corpora/files/govdocs1/by_type/pptx.zip
+.pptx,ok,018/018373.pptx,1937211,https://digitalcorpora.s3.amazonaws.com/corpora/files/govdocs1/by_type/pptx.zip

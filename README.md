@@ -145,9 +145,15 @@ include/officeread/   公开 C++ 头文件
 src/                  OOXML、OLE、文本和图片实现
 cmd/                  officeread 命令行程序
 tests/                CTest 测试
+testdata/             本地回归样本、异常样本和 Go 测试参考文件
 tools/                差分验证脚本
 docs/                 API 文档
 ```
+
+`testdata/samples` 含六种 Office 格式的核心回归语料，`testdata/negative`
+含损坏或异常输入，`testdata/web-samples-smoke` 含小规模网络样本冒烟集合。
+`testdata/reference` 保存原 Go 项目的测试源码与基线报告，供后续逐项移植断言；
+这些 `.go` 文件仅作为参考，不参与 C++ 构建。完整的多 GB `web-samples` 大语料未纳入本仓库。
 
 ## 限制与安全说明
 
